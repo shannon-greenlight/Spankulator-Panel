@@ -241,54 +241,8 @@ F 3 "~" H 2100 5400 50  0001 C CNN
 	1    2100 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H21
-U 1 1 5E4A6931
-P 3550 4650
-F 0 "H21" H 3650 4696 50  0000 L CNN
-F 1 "MountingHole" H 3650 4605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 3550 4650 50  0001 C CNN
-F 3 "~" H 3550 4650 50  0001 C CNN
-	1    3550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H22
-U 1 1 5E4A6D06
-P 3550 4900
-F 0 "H22" H 3650 4946 50  0000 L CNN
-F 1 "MountingHole" H 3650 4855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 3550 4900 50  0001 C CNN
-F 3 "~" H 3550 4900 50  0001 C CNN
-	1    3550 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H23
-U 1 1 5E4A6F20
-P 3550 5150
-F 0 "H23" H 3650 5196 50  0000 L CNN
-F 1 "MountingHole" H 3650 5105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 3550 5150 50  0001 C CNN
-F 3 "~" H 3550 5150 50  0001 C CNN
-	1    3550 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H24
-U 1 1 5E4A721E
-P 3550 5400
-F 0 "H24" H 3650 5446 50  0000 L CNN
-F 1 "MountingHole" H 3650 5355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 3550 5400 50  0001 C CNN
-F 3 "~" H 3550 5400 50  0001 C CNN
-	1    3550 5400
-	1    0    0    -1  
-$EndComp
 Text Notes 2050 4450 0    50   ~ 0
 Sub Board
-Text Notes 3500 4450 0    50   ~ 0
-OLED Display Screws
 $Comp
 L power:GND #PWR01
 U 1 1 5E4A82AD
@@ -388,26 +342,6 @@ F 1 "Logo_Open_Hardware_Small" H 7250 4725 50  0001 C CNN
 F 2 "" H 7250 4950 50  0001 C CNN
 F 3 "~" H 7250 4950 50  0001 C CNN
 	1    7250 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:0022232041 J1
-U 1 1 5E4E810A
-P 5350 4850
-F 0 "J1" H 5728 4904 50  0000 L CNN
-F 1 "OLED Pins" H 5728 4813 50  0000 L CNN
-F 2 "panel:OLED_Pins" H 5550 5050 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 5550 5150 60  0001 L CNN
-F 4 "WM4202-ND" H 5550 5250 60  0001 L CNN "Digi-Key_PN"
-F 5 "0022232041" H 5550 5350 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 5550 5450 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 5550 5550 60  0001 L CNN "Family"
-F 8 "https://www.molex.com/pdm_docs/sd/022232041_sd.pdf" H 5550 5650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex/0022232041/WM4202-ND/26671" H 5550 5750 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER VERT 4POS 2.54MM" H 5550 5850 60  0001 L CNN "Description"
-F 11 "Molex" H 5550 5950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5550 6050 60  0001 L CNN "Status"
-	1    5350 4850
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -46,8 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-SpankPanelGerber/*
 ~$*
 
 fp-info-cache
 *.kicad_pcb-bak
+*.zip
